@@ -50,7 +50,7 @@ export default function LandingPage() {
       title="Train Smarter. Play Better."
       description="Unlock your elite potential with AI-driven training plans, professional match analysis, and a global football community."
       leftCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg", imageAlt: "Hero scene 1" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg?_wi=1", imageAlt: "Hero scene 1" },
         { imageSrc: "http://img.b2bpic.net/free-photo/out-focus-green-fiber-optics-lights_23-2148241269.jpg", imageAlt: "Hero scene 2" },
         { imageSrc: "http://img.b2bpic.net/free-photo/sunset-football-field_23-2151952456.jpg", imageAlt: "Hero scene 3" },
         { imageSrc: "http://img.b2bpic.net/free-photo/stadium_1127-3575.jpg", imageAlt: "Hero scene 4" },
@@ -172,7 +172,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         { id: "basic", title: "Free Plan", price: "$0", period: "/mo", features: ["Basic drills", "Limited videos", "Basic tracking"], button: { text: "Get Started" }, imageSrc: "http://img.b2bpic.net/free-photo/physical-activity-stats-around-person_23-2150163336.jpg", imageAlt: "football analytics dashboard stats" },
-        { id: "pro", title: "Premium Plan", price: "$29", period: "/mo", features: ["AI Training Plans", "Advanced Analytics", "Exclusive Courses", "Live Coaching"], button: { text: "Upgrade" }, imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg", imageAlt: "football analytics dashboard stats" },
+        { id: "pro", title: "Premium Plan", price: "$29", period: "/mo", features: ["AI Training Plans", "Advanced Analytics", "Exclusive Courses", "Live Coaching"], button: { text: "Upgrade" }, imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg?_wi=2", imageAlt: "football analytics dashboard stats" },
       ]}
       title="Pricing Options"
       description="Choose the perfect plan to elevate your football career."
