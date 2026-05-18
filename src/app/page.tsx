@@ -67,7 +67,7 @@ export default function LandingPage() {
       description="Unlock your elite potential with AI-driven training plans, professional match analysis, and a global football community."
       leftCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg?_wi=1",
           imageAlt: "Hero scene 1",
         },
         {
@@ -429,7 +429,7 @@ export default function LandingPage() {
           button: {
             text: "Upgrade",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg?_wi=2",
           imageAlt: "football analytics dashboard stats",
         },
       ]}
