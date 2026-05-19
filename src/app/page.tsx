@@ -23,11 +23,11 @@ export default function LandingPage() {
         borderRadius="soft"
         contentWidth="mediumSmall"
         sizing="mediumSizeLargeTitles"
-        background="aurora"
-        cardStyle="subtle-shadow"
-        primaryButtonStyle="gradient"
-        secondaryButtonStyle="layered"
-        headingFontWeight="light"
+        background="noise"
+        cardStyle="glass-elevated"
+        primaryButtonStyle="shadow"
+        secondaryButtonStyle="glass"
+        headingFontWeight="semibold"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
@@ -46,7 +46,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
-      background={{ variant: "gradient-bars" }}
+      background={{ variant: "rotated-rays-static-grid" }}
       title="Train Smarter. Play Better."
       description="Unlock your elite potential with AI-driven training plans, professional match analysis, and a global football community."
       leftCarouselItems={[
@@ -77,7 +77,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       gridVariant="uniform-all-items-equal"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       features={[
         { title: "Dribbling", description: "Master ball control with personalized drills.", imageSrc: "http://img.b2bpic.net/free-photo/man-checking-summary-data-his-smartwatch_53876-102031.jpg" },
         { title: "Speed", description: "Explosive sprints and agility exercises.", imageSrc: "http://img.b2bpic.net/free-photo/back-view-women-doing-sport-with-stats_23-2150040498.jpg" },
@@ -93,7 +93,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       gridVariant="uniform-all-items-equal"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       products={[
         { id: "1", name: "Beginner Drills", price: "Access", variant: "Basic", imageSrc: "http://img.b2bpic.net/free-photo/older-woman-holding-smartphone-football-while-working-out-outdoors_23-2148771315.jpg" },
         { id: "2", name: "Pro Skills", price: "Premium", variant: "Advanced", imageSrc: "http://img.b2bpic.net/free-photo/influencer-talking-about-news-headlines-reading-from-chroma-key-laptop_482257-121769.jpg" },
@@ -112,7 +112,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       gridVariant="bento-grid"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       metrics={[
         { id: "m1", value: "15%", title: "Speed Gain", description: "Increase in sprint time", icon: Zap },
         { id: "m2", value: "88%", title: "Accuracy", description: "Shooting precision improvement", icon: Target },
@@ -125,7 +125,7 @@ export default function LandingPage() {
 
   <div id="analysis" data-section="analysis">
       <InlineImageSplitTextAbout
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       heading={[
         { type: "text", content: "Professional " },
         { type: "image", src: "http://img.b2bpic.net/free-photo/general-headquarters-monitoring-room-with-mockup-screen-tablet_482257-90086.jpg", alt: "Match Analysis" },
@@ -137,7 +137,7 @@ export default function LandingPage() {
   <div id="community" data-section="community">
       <TestimonialCardTen
       textboxLayout="split"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       testimonials={[
         { id: "t1", title: "Great Platform", quote: "NextKick changed my game entirely.", name: "Sarah J.", role: "Player", imageSrc: "http://img.b2bpic.net/free-photo/drinking-professional-classy-thinking-computer-graphic_1134-1429.jpg" },
         { id: "t2", title: "Elite Support", quote: "Tactical analysis is unmatched.", name: "Michael C.", role: "Coach", imageSrc: "http://img.b2bpic.net/free-photo/supporters-watching-their-team-win-game-mobile-phone_53876-132396.jpg" },
@@ -154,7 +154,7 @@ export default function LandingPage() {
       <TeamCardFive
       animationType="slide-up"
       textboxLayout="default"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       team={[
         { id: "c1", name: "Coach Alex", role: "Tactical Pro", imageSrc: "http://img.b2bpic.net/free-photo/football-trainer-teaching-kids-high-angle_23-2149742040.jpg" },
         { id: "c2", name: "Coach Sofia", role: "Speed Specialist", imageSrc: "http://img.b2bpic.net/free-photo/people-playing-basketball_23-2149231756.jpg" },
@@ -169,7 +169,7 @@ export default function LandingPage() {
       <PricingCardNine
       animationType="slide-up"
       textboxLayout="split"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       plans={[
         { id: "basic", title: "Free Plan", price: "$0", period: "/mo", features: ["Basic drills", "Limited videos", "Basic tracking"], button: { text: "Get Started" }, imageSrc: "http://img.b2bpic.net/free-photo/physical-activity-stats-around-person_23-2150163336.jpg", imageAlt: "football analytics dashboard stats" },
         { id: "pro", title: "Premium Plan", price: "$29", period: "/mo", features: ["AI Training Plans", "Advanced Analytics", "Exclusive Courses", "Live Coaching"], button: { text: "Upgrade" }, imageSrc: "http://img.b2bpic.net/free-photo/green-neodymium-magnet-phenomenon_23-2148253598.jpg?_wi=2", imageAlt: "football analytics dashboard stats" },
@@ -181,7 +181,7 @@ export default function LandingPage() {
 
   <div id="contact" data-section="contact">
       <ContactSplitForm
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       title="Join the Academy"
       description="Get in touch for custom camps or partnership inquiries."
       inputs={[
