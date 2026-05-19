@@ -11,7 +11,7 @@ import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import PricingCardNine from '@/components/sections/pricing/PricingCardNine';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import TeamCardFive from '@/components/sections/team/TeamCardFive';
+import TeamCardSix from '@/components/sections/team/TeamCardSix';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 import { Target, TrendingUp, Zap } from "lucide-react";
 
@@ -151,11 +151,12 @@ export default function LandingPage() {
   </div>
 
   <div id="coaches" data-section="coaches">
-      <TeamCardFive
+      <TeamCardSix
       animationType="slide-up"
       textboxLayout="default"
+      gridVariant="asymmetric-60-wide-40-narrow"
       useInvertedBackground={true}
-      team={[
+      members={[
         { id: "c1", name: "Coach Alex", role: "Tactical Pro", imageSrc: "http://img.b2bpic.net/free-photo/football-trainer-teaching-kids-high-angle_23-2149742040.jpg" },
         { id: "c2", name: "Coach Sofia", role: "Speed Specialist", imageSrc: "http://img.b2bpic.net/free-photo/people-playing-basketball_23-2149231756.jpg" },
         { id: "c3", name: "Coach Marcus", role: "Goalkeeper Coach", imageSrc: "http://img.b2bpic.net/free-photo/authentic-scenes-plus-size-males-playing-basketball_23-2150961242.jpg" },
